@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Office" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Office" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="C:/wxWidgets-3.0.5/lib/gcc_dll/mswu" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="C:/wxWidgets-3.0.5/lib/gcc_dll/mswu" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="libwxmsw30u.a" />
+					<Add directory="C:/wxWidgets-3.0.5/lib/gcc_dll" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Office" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="C:/wxWidgets-3.0.5/lib/gcc_dll/mswu" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="C:/wxWidgets-3.0.5/lib/gcc_dll/mswu" />
+				</ResourceCompiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="libwxmsw30u.a" />
+					<Add directory="C:/wxWidgets-3.0.5/lib/gcc_dll" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-pipe" />
+			<Add option="-mthreads" />
+			<Add option="-D__GNUWIN32__" />
+			<Add option="-D__WXMSW__" />
+			<Add option="-DWXUSINGDLL" />
+			<Add option="-DwxUSE_UNICODE" />
+			<Add directory="C:/wxWidgets-3.0.5/include" />
+			<Add directory="../../../../../../Program Files/MySQL/MySQL Server 8.0/include" />
+			<Add directory="../../../../../../Program Files (x86)/Dev-Cpp/MinGW64/include" />
+		</Compiler>
+		<ResourceCompiler>
+			<Add directory="C:/wxWidgets-3.0.5/include" />
+		</ResourceCompiler>
+		<Linker>
+			<Add option="-mthreads" />
+			<Add library="../../../../../../Program Files/MySQL/MySQL Server 8.0/lib/libmysql.lib" />
+			<Add library="../../../../../../Program Files (x86)/Dev-Cpp/MinGW64/lib/libmysql.a" />
+			<Add directory="../../../../../../Program Files/MySQL/MySQL Server 8.0/lib" />
+		</Linker>
+		<Unit filename="Admin.cpp" />
+		<Unit filename="Admin.h" />
+		<Unit filename="AdminLogin.cpp" />
+		<Unit filename="AdminLogin.h" />
+		<Unit filename="CheckStud.cpp" />
+		<Unit filename="CheckStud.h" />
+		<Unit filename="CheckTeach.cpp" />
+		<Unit filename="CheckTeach.h" />
+		<Unit filename="DisplayStud.cpp" />
+		<Unit filename="DisplayStud.h" />
+		<Unit filename="DisplayTeach.cpp" />
+		<Unit filename="DisplayTeach.h" />
+		<Unit filename="ModSteach.cpp" />
+		<Unit filename="ModSteach.h" />
+		<Unit filename="Modstud.cpp" />
+		<Unit filename="Modstud.h" />
+		<Unit filename="Modteach.cpp" />
+		<Unit filename="Modteach.h" />
+		<Unit filename="OfficeApp.cpp" />
+		<Unit filename="OfficeApp.h" />
+		<Unit filename="OfficeMain.cpp" />
+		<Unit filename="OfficeMain.h" />
+		<Unit filename="Student.cpp" />
+		<Unit filename="Student.h" />
+		<Unit filename="Teacherv2.cpp" />
+		<Unit filename="Teacherv2.h" />
+		<Unit filename="resource.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="wxsmith/Admin.wxs" />
+		<Unit filename="wxsmith/AdminLogin.wxs" />
+		<Unit filename="wxsmith/CheckStud.wxs" />
+		<Unit filename="wxsmith/CheckTeach.wxs" />
+		<Unit filename="wxsmith/DisplayStud.wxs" />
+		<Unit filename="wxsmith/DisplayTeach.wxs" />
+		<Unit filename="wxsmith/ModSteach.wxs" />
+		<Unit filename="wxsmith/Modstud.wxs" />
+		<Unit filename="wxsmith/Modteach.wxs" />
+		<Unit filename="wxsmith/Officeframe.wxs" />
+		<Unit filename="wxsmith/Student.wxs" />
+		<Unit filename="wxsmith/Teacherv2.wxs" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+			<wxsmith version="1">
+				<gui name="wxWidgets" src="OfficeApp.cpp" main="OfficeFrame" init_handlers="necessary" language="CPP" />
+				<resources>
+					<wxFrame wxs="wxsmith/Officeframe.wxs" src="OfficeMain.cpp" hdr="OfficeMain.h" fwddecl="0" i18n="1" name="OfficeFrame" language="CPP" />
+					<wxFrame wxs="wxsmith/AdminLogin.wxs" src="AdminLogin.cpp" hdr="AdminLogin.h" fwddecl="0" i18n="1" name="AdminLogin" language="CPP" />
+					<wxFrame wxs="wxsmith/Admin.wxs" src="Admin.cpp" hdr="Admin.h" fwddecl="0" i18n="1" name="Admin" language="CPP" />
+					<wxFrame wxs="wxsmith/Modstud.wxs" src="Modstud.cpp" hdr="Modstud.h" fwddecl="0" i18n="1" name="Modstud" language="CPP" />
+					<wxFrame wxs="wxsmith/Modteach.wxs" src="Modteach.cpp" hdr="Modteach.h" fwddecl="0" i18n="1" name="Modteach" language="CPP" />
+					<wxDialog wxs="wxsmith/CheckStud.wxs" src="CheckStud.cpp" hdr="CheckStud.h" fwddecl="0" i18n="1" name="CheckStud" language="CPP" />
+					<wxDialog wxs="wxsmith/DisplayStud.wxs" src="DisplayStud.cpp" hdr="DisplayStud.h" fwddecl="0" i18n="1" name="DisplayStud" language="CPP" />
+					<wxDialog wxs="wxsmith/CheckTeach.wxs" src="CheckTeach.cpp" hdr="CheckTeach.h" fwddecl="0" i18n="1" name="CheckTeach" language="CPP" />
+					<wxDialog wxs="wxsmith/DisplayTeach.wxs" src="DisplayTeach.cpp" hdr="DisplayTeach.h" fwddecl="0" i18n="1" name="DisplayTeach" language="CPP" />
+					<wxFrame wxs="wxsmith/Student.wxs" src="Student.cpp" hdr="Student.h" fwddecl="0" i18n="1" name="Student" language="CPP" />
+					<wxFrame wxs="wxsmith/Teacher.wxs" src="Teacher.cpp" hdr="Teacher.h" fwddecl="0" i18n="1" name="Teacher" language="CPP" />
+					<wxFrame wxs="wxsmith/Teacherv2.wxs" src="Teacherv2.cpp" hdr="Teacherv2.h" fwddecl="0" i18n="1" name="Teacherv2" language="CPP" />
+					<wxFrame wxs="wxsmith/ModSteach.wxs" src="ModSteach.cpp" hdr="ModSteach.h" fwddecl="0" i18n="1" name="ModSteach" language="CPP" />
+				</resources>
+			</wxsmith>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
