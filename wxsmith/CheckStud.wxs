@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxDialog" name="CheckStud">
+		<size>400,337</size>
+		<pos_arg>1</pos_arg>
+		<size_arg>1</size_arg>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="TextCtrl1" member="yes">
+			<pos>128,104</pos>
+			<size>144,23</size>
+			<handler function="OnTextCtrl1Text" entry="EVT_TEXT" />
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+			<label>Enter Student&apos;s Admission Number:</label>
+			<pos>88,72</pos>
+			<font>
+				<size>10</size>
+				<style>italic</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Arial</face>
+			</font>
+		</object>
+		<object class="wxButton" name="ID_PROCEED" variable="proceed" member="yes">
+			<label>Proceed</label>
+			<pos>160,152</pos>
+			<handler function="OnproceedClick" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxButton" name="ID_BACK" variable="back" member="yes">
+			<label>Back</label>
+			<pos>32,240</pos>
+			<size>56,23</size>
+			<font>
+				<size>12</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>default</family>
+				<face>Arial</face>
+			</font>
+			<handler function="OnbackClick" entry="EVT_BUTTON" />
+		</object>
+	</object>
+</wxsmith>

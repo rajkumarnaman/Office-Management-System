@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="AdminLogin">
+		<size>400,398</size>
+		<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+			<label>Welcome, Please Login to Proceed</label>
+			<pos>64,40</pos>
+			<font>
+				<size>14</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Candara</face>
+			</font>
+		</object>
+		<object class="wxTextCtrl" name="ID_USERNAME" variable="username" member="yes">
+			<maxlength>20</maxlength>
+			<pos>176,112</pos>
+			<size>176,23</size>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+			<label>USERNAME:</label>
+			<pos>88,112</pos>
+			<font>
+				<size>12</size>
+				<style>normal</style>
+				<weight>light</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Bahnschrift Light</face>
+			</font>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="TextCtrl1" member="yes">
+			<maxlength>20</maxlength>
+			<pos>176,200</pos>
+			<size>176,23</size>
+			<style>wxTE_PASSWORD</style>
+			<handler function="OnTextCtrl1Text" entry="EVT_TEXT" />
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT3" variable="StaticText3" member="yes">
+			<label>PASSWORD:</label>
+			<pos>88,200</pos>
+			<font>
+				<size>12</size>
+				<style>normal</style>
+				<weight>light</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Bahnschrift Light</face>
+			</font>
+		</object>
+		<object class="wxButton" name="ID_BACK" variable="back" member="yes">
+			<label>Back</label>
+			<pos>32,296</pos>
+			<font>
+				<size>12</size>
+				<style>italic</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Candara</face>
+			</font>
+			<handler function="OnbackClick" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxButton" name="ID_SUBMIT" variable="submit" member="yes">
+			<label>Submit</label>
+			<pos>280,296</pos>
+			<font>
+				<size>12</size>
+				<style>italic</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Candara</face>
+			</font>
+			<handler function="OnsubmitClick" entry="EVT_BUTTON" />
+		</object>
+	</object>
+</wxsmith>

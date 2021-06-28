@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="Teacherv2">
+		<size>400,406</size>
+		<pos_arg>1</pos_arg>
+		<size_arg>1</size_arg>
+		<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+			<label>Enter your Teacher ID:&#x0A;</label>
+			<pos>104,32</pos>
+			<size>179,24</size>
+			<font>
+				<size>14</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Candara</face>
+			</font>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="TextCtrl1" member="yes">
+			<pos>136,104</pos>
+		</object>
+		<object class="wxButton" name="ID_BUTTON1" variable="Button1" member="yes">
+			<label>Submit</label>
+			<pos>160,152</pos>
+			<size>64,23</size>
+			<handler function="OnButton1Click" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON2" variable="Button2" member="yes">
+			<label>Back</label>
+			<pos>48,272</pos>
+			<size>40,23</size>
+			<handler function="OnButton2Click" entry="EVT_BUTTON" />
+		</object>
+	</object>
+</wxsmith>

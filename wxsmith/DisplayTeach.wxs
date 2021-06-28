@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxDialog" name="DisplayTeach">
+		<size>400,392</size>
+		<pos_arg>1</pos_arg>
+		<size_arg>1</size_arg>
+		<object class="wxStaticBox" name="ID_STATICBOX1" variable="StaticBox1" member="yes">
+			<label>Teacher Details</label>
+			<pos>40,32</pos>
+			<size>312,320</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="TextCtrl1" member="yes">
+			<pos>176,80</pos>
+			<size>160,23</size>
+			<style>wxTE_MULTILINE|wxTE_READONLY|wxBORDER_RAISED</style>
+			<handler function="OnTextCtrl1Text" entry="EVT_TEXT" />
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL2" variable="TextCtrl2" member="yes">
+			<pos>176,128</pos>
+			<size>160,23</size>
+			<style>wxTE_MULTILINE|wxTE_READONLY|wxBORDER_RAISED</style>
+			<handler function="OnTextCtrl2Text" entry="EVT_TEXT" />
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL3" variable="TextCtrl3" member="yes">
+			<pos>176,176</pos>
+			<size>160,23</size>
+			<style>wxTE_MULTILINE|wxTE_READONLY|wxBORDER_RAISED</style>
+			<handler function="OnTextCtrl3Text" entry="EVT_TEXT" />
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL4" variable="TextCtrl4" member="yes">
+			<pos>176,224</pos>
+			<size>160,23</size>
+			<style>wxTE_MULTILINE|wxTE_READONLY|wxBORDER_RAISED</style>
+			<handler function="OnTextCtrl4Text" entry="EVT_TEXT" />
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL5" variable="TextCtrl5" member="yes">
+			<pos>176,272</pos>
+			<size>160,23</size>
+			<style>wxTE_MULTILINE|wxTE_READONLY|wxBORDER_RAISED</style>
+			<handler function="OnTextCtrl5Text" entry="EVT_TEXT" />
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+			<label>Name:</label>
+			<pos>136,88</pos>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+			<label>ID:</label>
+			<pos>152,136</pos>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT3" variable="StaticText3" member="yes">
+			<label>Subject:</label>
+			<pos>128,184</pos>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT4" variable="StaticText4" member="yes">
+			<label>Salary:</label>
+			<pos>136,232</pos>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT5" variable="StaticText5" member="yes">
+			<label>Semesters you teach: </label>
+			<pos>56,280</pos>
+		</object>
+	</object>
+</wxsmith>

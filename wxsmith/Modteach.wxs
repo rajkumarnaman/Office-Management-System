@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="Modteach">
+		<size>400,386</size>
+		<pos_arg>1</pos_arg>
+		<size_arg>1</size_arg>
+		<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+			<label>Modify Teacher Details</label>
+			<pos>80,32</pos>
+			<size>232,20</size>
+			<font>
+				<size>14</size>
+				<style>italic</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Candara</face>
+			</font>
+		</object>
+		<object class="wxButton" name="ID_BUTTON1" variable="Button1" member="yes">
+			<label>Modify Name</label>
+			<pos>168,104</pos>
+			<size>152,23</size>
+			<handler function="OnButton1Click" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON2" variable="Button2" member="yes">
+			<label>Modify Subject</label>
+			<pos>168,160</pos>
+			<size>152,23</size>
+			<handler function="OnButton2Click" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON3" variable="Button3" member="yes">
+			<label>Modify Salary</label>
+			<pos>168,216</pos>
+			<size>152,23</size>
+			<handler function="OnButton3Click" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON4" variable="Button4" member="yes">
+			<label>View Details</label>
+			<pos>168,272</pos>
+			<size>152,23</size>
+			<handler function="OnButton4Click" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+			<label>1.</label>
+			<pos>152,112</pos>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT3" variable="StaticText3" member="yes">
+			<label>2.</label>
+			<pos>152,168</pos>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT4" variable="StaticText4" member="yes">
+			<label>3.</label>
+			<pos>152,224</pos>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT5" variable="StaticText5" member="yes">
+			<label>4.</label>
+			<pos>152,280</pos>
+		</object>
+		<object class="wxButton" name="ID_BUTTON5" variable="Button5" member="yes">
+			<label>Back</label>
+			<pos>40,320</pos>
+			<size>51,23</size>
+			<handler function="OnButton5Click" entry="EVT_BUTTON" />
+		</object>
+	</object>
+</wxsmith>

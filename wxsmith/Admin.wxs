@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="Admin">
+		<size>400,403</size>
+		<pos_arg>1</pos_arg>
+		<size_arg>1</size_arg>
+		<handler function="OnClose" entry="EVT_CLOSE" />
+		<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+			<label>Welcome to Admin Page,</label>
+			<pos>16,16</pos>
+			<font>
+				<size>12</size>
+				<style>normal</style>
+				<weight>normal</weight>
+				<underlined>0</underlined>
+				<family>default</family>
+				<face>Arial</face>
+			</font>
+		</object>
+		<object class="wxButton" name="ID_STUD" variable="stud" member="yes">
+			<label>View/Modify Student Details</label>
+			<pos>136,128</pos>
+			<size>216,23</size>
+			<font>
+				<size>12</size>
+				<style>italic</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Candara</face>
+			</font>
+			<handler function="OnstudClick" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+			<label>Please select the operation:</label>
+			<pos>96,40</pos>
+			<font>
+				<size>12</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Candara</face>
+			</font>
+		</object>
+		<object class="wxButton" name="ID_TEACH" variable="teach" member="yes">
+			<label>View/Modify Teacher Details</label>
+			<pos>136,200</pos>
+			<size>216,23</size>
+			<font>
+				<size>12</size>
+				<style>italic</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Candara</face>
+			</font>
+			<handler function="OnteachClick" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxButton" name="ID_BACK" variable="back" member="yes">
+			<label>Back</label>
+			<pos>40,288</pos>
+			<size>56,23</size>
+			<font>
+				<size>12</size>
+				<style>italic</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Candara</face>
+			</font>
+			<handler function="OnbackClick" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT3" variable="StaticText3" member="yes">
+			<label>1.</label>
+			<pos>120,136</pos>
+			<font>
+				<size>10</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>default</family>
+				<face>Arial</face>
+			</font>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT4" variable="StaticText4" member="yes">
+			<label>2.</label>
+			<pos>120,208</pos>
+			<font>
+				<size>10</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>default</family>
+				<face>Arial</face>
+			</font>
+		</object>
+	</object>
+</wxsmith>
